@@ -1,0 +1,11 @@
+{
+  "parts": [
+    {
+      "name": "ep_inside_list",
+      "hooks": {
+        "eejsBlock_body": "ep_inside_list/hooks:eejsBlock_body",
+	"eejsBlock_styles": "ep_inside_list/hooks:eejsBlock_styles"
+      }
+    }
+  ]
+}

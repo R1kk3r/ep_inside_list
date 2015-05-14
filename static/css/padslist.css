@@ -1,0 +1,32 @@
+
+.padlist {
+     font-family: Verdana, sans-serif;
+     font-size: 12px;
+     line-height: 18px;
+     padding: 0px;
+     margin: 0px;
+ }
+.padlist LI {
+     list-style: none;
+     padding: 0px;
+     padding-left: 8px;
+     margin: 0px;
+     white-space: nowrap;
+ }
+.padlist LI A {
+     text-decoration: none;
+     display: block;
+     padding: 0px 2px;
+ }
+
+.padlist LI:before {
+     font-family: FontAwesome;
+     font-size: 14px;
+     padding-right: 7px;
+     cursor: pointer;
+     float: left;
+     background: left top no-repeat;
+     text-shadow: 0.5px 0.5px 1px #222;
+     content: "\f15c";
+     color: #999;
+ }
